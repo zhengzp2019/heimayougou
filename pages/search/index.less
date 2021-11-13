@@ -1,0 +1,44 @@
+page {
+  background-color: #edece8;
+  padding: 20rpx;
+}
+.search_row {
+  display: flex;
+  height: 60rpx;
+  input {
+    flex: 1;
+    height: 100%;
+    padding-left: 30rpx;
+    background-color: #fff;
+  }
+
+  .btn {
+    height: 100%;
+    width: 110rpx;
+    padding: 0;
+    margin: 0 10rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26rpx;
+    color: #666;
+  }
+}
+
+.search_content {
+  margin-top: 30rpx;
+  .search_item {
+    background-color: #eee;
+    font-size: 26rpx;
+    border-bottom: 1rpx solid #cfcfcf;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    padding: 15rpx 10rpx;
+
+    // 使元素在一行显示
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

@@ -1,0 +1,2 @@
+<button type="primary" plain="{{true}}" bindtap="handleGetUserInfo">授权</button>
+
