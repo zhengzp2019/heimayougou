@@ -1,5 +1,9 @@
 let ajaxTimes = 0;
-
+/**
+ * Promise 形式的Request
+ * @param {Object} params 
+ * @returns res
+ */
 export const request = (params) => {
     // 判断url中是否带有 /my/请求的私有的路径 带上header token
     let header = { ...params.header };
